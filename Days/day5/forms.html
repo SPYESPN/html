@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" style="background-color: rgb(1, 182, 1);">
+    <h3>Step 1: Your details</h3>
+    <label for="name">Name </label>
+    <input type="text" id="name" placeholder="First and last name"><br><br>
+    <label for="email">Email </label>
+    <input type="email" id="email" placeholder="example@domain.com"><br><br>
+    <label for="phone">Phone</label>
+    <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+    <h3>Step 2 Delivery Address</h3>
+    <label for="Address">Address</label>
+    <input type="text" id="address" placeholder="Street address including house number" size="50"><br><br>
+    <label for="Post code">Post Code</label>
+    <input type="text" id="postcode"><br><br>
+    <label for="Country">Country</label>
+    <input  type="text" id="country"><br><br>
+    <h3>Step 3 Card details</h3>
+    <label for="Card type">Card type</label><br>
+    <input type="radio" id="visa" name="cardtype" value="Visa"><label for="Visa"> Visa</label>
+    <input type="radio" id="AmEx" name="cardtype" value="Amex"><label for="AmEx"> AmEx</label>
+    <input type="radio" id="mastercard" name="cardtype" value="Mastercard"><label for="Mastercard"><label for="Mastercard">Mastercard</label><br>
+    <label for="card number">Card number</label>
+    <input type="text" id="card number" placeholder="16 digits"><br><br>
+    <label for="Security code">Security Code</label>
+    <input type="text"  id="security code" placeholder="4 digits"><br>
+    <label for="name on card"> Name on Card</label>
+    <input type="text" id="nameoncard" ><br><br>
+    <center>
+    <button  onclick="validateForm() ">Buy IT!</button></center></form>
+    
+
+</body>
+</html>

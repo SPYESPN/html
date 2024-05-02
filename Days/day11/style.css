@@ -1,0 +1,114 @@
+.div1{
+    position: fixed;
+    /* z-index: 1; */
+    background-color: azure;
+    padding: 20px;
+    font-size: 1.2em;
+    font-style: normal ;
+    z-index: 1;
+    
+}
+img{
+    width:1420px;
+    margin-top: 70px;
+    margin-right: 20px;
+}
+div.container h1{
+   
+   position: relative;
+   left: 600px;
+   bottom: 450px;
+   display: inline-block;
+   color: white;
+   opacity: 0.9;
+   padding: 18px;
+   font-style: italic;
+   margin-bottom: 40px;
+}
+div.projects p{
+    font-size: 1.5em;
+}
+
+.x{
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    
+}
+.x img{
+    content: "";
+  clear: both;
+  display: table;
+  width: 350px;
+}
+.a,.b,.c,.d,.e,.f,.g,.h{
+    float: left;
+  width: 19%;
+  padding: 20px;
+}
+ .x span{
+    position: relative;
+    top: -233px;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    
+ }
+ .About span{
+    font-size: 1.8em;
+ }
+ .About p{
+    font-size: 1.1em;
+ }
+ .xyz img{
+    width: 320px;
+    content: "";
+    clear: both;
+    display: table;
+ }
+ .abc{
+    float: left;
+  width: 17%;
+  padding-right: 60px;
+ }
+
+
+.q{
+    font-size: 1.1em;
+    opacity: 0.5;
+}
+.w{
+    color: grey;
+    block-size: 30px;
+    text-align: center;
+    width: 270px;
+    
+    
+}
+h3{
+    font-size: 1.5em;
+    display: inline-block;
+}
+input{
+    width: 98%;
+    padding: 10px;
+}
+.send button{
+    color: white;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+footer p{
+    color: white;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 25px;
+}
+.i img{
+    width: 98%;
+}
+

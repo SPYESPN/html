@@ -1,0 +1,111 @@
+
+.back td {
+    background-color: rgb(250, 252, 253);
+}
+.a :hover:nth-child(1)
+        {
+            background-color: blue;
+        }
+        .a :hover:nth-child(2)
+        {
+            background-color: rgb(255, 0, 0);
+        }
+        .a :hover:nth-child(3)
+        {
+            background-color: green;
+        }
+        .a :hover:nth-child(4)
+        {
+            background-color: orange
+        }
+        .a :hover:nth-child(5)
+        {
+            background-color: brown
+        }
+.b :hover:nth-child(1)
+{
+    background-color: yellow;
+}
+.b :hover:nth-child(2)
+{
+    background-color: rgb(255, 0, 166);
+}
+.b :hover:nth-child(3)
+{
+    background-color: purple;
+}
+.b :hover:nth-child(4)
+{
+    background-color: maroon;
+}
+.b :hover:nth-child(5)
+{
+    background-color: rgb(255, 255, 255)
+}
+
+.d :hover:hover:nth-child(1)
+{
+    background-color: rgb(85, 69, 202);
+}
+.d :hover:nth-child(2)
+{
+    background-color: rgb(255, 208, 80);
+}
+.d :hover:nth-child(3)
+{
+    background-color: plum
+}
+.d :hover:nth-child(4)
+{
+    background-color: rgb(157, 255, 127)
+}
+.d :hover:nth-child(5)
+{
+    background-color:cornsilk
+}
+.e :hover:nth-child(1)
+{
+    background-color: gold;
+}
+.e :hover:nth-child(2)
+{
+    background-color: cyan;
+}
+.e :hover:nth-child(3)
+{
+    background-color: crimson
+}
+.e :hover:nth-child(4)
+{
+    background-color: teal
+}
+.e :hover:nth-child(5)
+{
+    background-color: black
+}
+
+.c :hover:nth-child(1)
+{
+    background-color: rgb(69, 202, 122);
+}
+.c :hover:nth-child(2)
+{
+    background-color: coral;
+}
+.c :hover:nth-child(3)
+{
+    background-color: navy;
+}
+.c :hover:nth-child(4)
+{
+    background-color: aquamarine
+}
+.c :hover:nth-child(5)
+{
+    background-color: rgb(94, 84, 71)
+}
+
+
+
+        
+       

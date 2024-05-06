@@ -1,0 +1,106 @@
+
+.w{
+    
+    position: absolute;
+    top: 5px;
+    color: white;
+    background-color: hsl(0, 2%, 46%);
+    mix-blend-mode: multiply;
+    width: 99%;
+    height: 500px;
+}
+
+.inner_content{
+    color: white;
+    position: absolute;
+    top:28%;
+    left: 38%;
+    opacity: 0.9;
+}
+.inner_content i{
+    margin-left: 17%;
+    font-size: 1.4em;
+}
+.inner_content button{
+    background-color: brown;
+    margin-top: 8%;
+    margin-left: 30%;
+    padding: 2%;
+    color: white;
+    
+}
+.statement h2{
+    display: inline-block;
+    margin-left: 43%;
+    margin-top: 2%;
+}
+.f1{
+    display: inline-block;
+    height: 30%;
+    width: 26%;
+    text-align: center;
+    margin-left: 5%;
+}
+.t1{
+    display: inline-block;
+    height: 30%;
+    width: 28%;
+    text-align: center;
+    margin-left: 6%;
+    padding-top: 2%;
+    color: white;
+}
+.Temple{
+    background-color: rgb(209, 46, 46);
+    height: 20%;
+
+}
+.t1 button{
+    padding: 3% 10%;
+    color: white;
+    margin-top: -18%;
+    margin-left: 250%;
+    background-color: rgb(209, 46, 46);
+    border: 2px solid white;
+    vertical-align: top;
+}
+.Card{
+    background-color: grey;
+    height: 40%;
+}
+.c1{
+    display: inline-block;
+    background-color: white;
+    margin-left: 10%;
+    margin-top: 3%;
+    padding: 2% 15%;
+
+}
+.c2{
+    display: inline-block;
+    background-color: rgb(209, 46, 46);
+    height: 23%;
+    width:  -300%;
+    font-size: 2em;
+    padding: 50px 50px;
+    margin-bottom: 50%;
+    vertical-align: top;
+    margin-top: 26px;
+
+}
+.c3{
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 26px;
+    vertical-align: top;
+
+}
+
+.E1 p{
+    width: 250px;
+}
+.E1{
+    text-align: center;
+    display: inline-block;
+    margin-left: 12% ;
+}

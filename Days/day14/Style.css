@@ -48,3 +48,11 @@ transition-timing-function: ease;
 width: 280px;
 
 }
+img{
+  background: red;
+  transition: width 1s, height 4s;
+}
+img:hover{
+  width: 110%;
+  height: 50%;
+}

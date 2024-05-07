@@ -1,0 +1,50 @@
+*{
+  background-color: antiquewhite;
+}
+
+th p {
+  background-color: white;
+}
+th img{
+  background-color: white;
+}
+h4{
+  background-color: white;
+}
+.Cards{
+    
+    box-shadow: 0 1.5px 16px 0 rgba(0,0,0,0.1.8);
+    transition: 0.5s;
+    width: 95%;
+    margin-left: 2%;
+    margin-top: 4%;
+    
+    
+    
+}
+.Card1{
+              
+        padding: 25px 35px;
+        width: 25%;
+        vertical-align: top;
+        text-align: left;
+        background-color: white;
+        
+    
+}
+.Card1:hover{
+    box-shadow: 0 9px 32px 0 rgba(0,0,0,5);
+  transform: scale(1.02,1.02);
+  
+}
+.Card1 button{
+  transition:width 5s;
+  background-color: white;
+  padding: 3%;
+}
+.Card1 button:hover{
+background-color: rgb(142, 143, 140);
+transition-timing-function: ease;
+width: 280px;
+
+}

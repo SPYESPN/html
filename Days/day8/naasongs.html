@@ -3,12 +3,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naaa Songs</title>
+    <link rel="stylesheet" href="./naasongs.html">
 </head>
+<style>
+    .animation{
+        width: 10vw;
+        height: 30vh;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        transform: rotate(180deg);
+    }
+    .animation span{
+        width: 30px;
+        margin: 0 3px;
+        border-radius: 2px;
+        animation: loader 2s infinite;
+    }
+    @keyframes loader{
+        0%{height: 10px;
+            background: #0081c9;
+        }
+        25%{
+            height: 95px;
+            background: #ffb100;
+        }
+        50% {
+            height: 50px;
+            background: #54b435;
+        }
+        75% {
+            height: 95px;
+            background: #ff6464;    
+        }   
+        
+    }
+    .animation span:nth-last-child(1){
+        animation-delay: .2s;
+    
+    }
+    .animation span:nth-last-child(2){
+        animation-delay: .4s;
+    
+    }.animation span:nth-last-child(3){
+        animation-delay: .6s;
+    
+    }.animation span:nth-last-child(4){
+        animation-delay: .8s;
+    
+    }.animation span:nth-last-child(5){
+        animation-delay: .1s;
+    
+    }
+    
+    
+</style>
 <body>
     <center>
         <h2>Naaa Songs</h2>
         <img src="./Race-Gurram-jpeg-300x274.jpg" alt="Race-Gurram"><br>Race-Gurram<br><br>
-
+        <div class="animation">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            
+        </div>
         01.Gala-SenSongsMp3<br>
         <audio controls muted>
             <source src="./Gala Gala-SenSongsMp3.Com.mp3" type="audio/mpeg">Gala-SenSongsMp3

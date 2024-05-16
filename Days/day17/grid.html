@@ -1,0 +1,72 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <style>
+    .grid {
+      width: 540px;
+      display: grid;
+      grid-template-columns: 100px 100px 100px 100px 100px;
+      grid-template-rows: 100px 100px 100px;
+      background-color: rgb(99, 99, 243);
+      gap: 10px;
+      padding: 10%;
+    }
+    .grid div {
+      background-color: antiquewhite;
+      text-align: center;
+      
+    }
+    .item1 {
+      grid-column-start: 1;
+      grid-column-end: 6;
+    }
+    .item2 {
+      grid-row-start: 2;
+      grid-row-end: 4;
+    }
+    .item3 {
+      grid-column-start: 2;
+      grid-column-end: 5;
+    }
+    .item4 {
+      grid-column-start: 5;
+      grid-column-end: 6;
+    }
+    .item5 {
+      grid-column-start: 2;
+      grid-column-end: 6;
+    }
+  </style>
+  <body>
+    <div class="grid">
+      <div class="item1">
+        <img
+          src="https://png.pngtree.com/thumb_back/fh260/background/20211011/pngtree-modern-liquid-gradient-colors-abstract-background-design-template-for-brochures-flyers-image_910976.png"
+          alt="Header" style="height: 100;" width="540"
+        />
+      </div>
+      <div class="item2"><img src="https://img.freepik.com/free-photo/high-angle-colorful-bent-papers-with-copy-space_23-2148428700.jpg" 
+        alt="Menu" style="height: 210;" width="100"></div>
+      <div class="item3"><img src="https://t3.ftcdn.net/jpg/03/76/67/84/360_F_376678424_89dRKdMvobcFH7amx4cmGvQAWD7Lf8be.jpg" 
+        alt="Main" style="height: 100px;" width="320px">></div>
+      <div class="item4"><img src="https://i.pinimg.com/originals/e7/58/fe/e758fe4410dad4963e19a8dcef577fea.jpg" 
+        alt="" style="height: 100px;" width="100px"></div>
+      <div class="item5"><img src="https://img.freepik.com/free-vector/modern-flowing-colorful-wave-banner-background_1035-19861.jpg" 
+        alt="Footer" style="height: 100px;" width="430px"></div>
+    </div>
+    <br />
+    <div class="grid2">
+      <div class="a1">1</div>
+      <div class="a2">2</div>
+      <div class="a3">3</div>
+      <div class="a4">4</div>
+      <div class="a5">5</div>
+      <div class="a6">6</div>
+      <div class="a7">7</div>
+    </div>
+  </body>
+</html>

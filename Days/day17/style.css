@@ -1,0 +1,29 @@
+.grid2{
+    width: 330px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px ;
+    background-color: rgb(152, 218, 196);
+    
+    padding: 20;
+    padding-left: 45;
+}
+.grid2:hover{
+    gap: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.grid2 div{
+    background-color: rgb(97, 90, 90);
+    text-align: center;
+    padding: 45px;
+    
+}
+.a1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.a7{
+    grid-column-start: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}

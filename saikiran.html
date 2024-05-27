@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        
+        .container_1 {
+            width: 100%;
+            height: 100%;
+        
+        }
+
+        .section {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-image: url('./pop-bg (1).jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .line_style1 {
+            width: 22%; 
+            height: 5px;
+            background-color: white;
+            position: absolute;
+            top: 240px;
+            left: 270px;
+        }
+
+        .line_style2 {
+            width: 15%;
+            height: 3%;
+            padding: 1%;
+            border: 2px solid white;
+            background-color: white;
+            position: absolute;
+            left: 450px;
+            bottom: 350px;
+            top: 230px;
+            color: white;
+        }
+
+        .pop {
+            position: absolute;
+            top: 180px;
+            bottom: 300px;
+            left: 450px;
+            color: white;
+        }
+
+        .para {
+            position: absolute;
+            top: 250px;
+            left: 350px;
+            color: white;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: 100px 100px;
+            grid-template-rows: 100px 100px;
+            gap: 10px;
+            flex: 1;
+            padding: 20px;
+            position: absolute;
+            top: 120px;
+            bottom: 350px;
+            left: 620px;
+            
+        }
+
+        .image-container {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            border: 2px solid white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            
+        }
+
+        .image-grid img {
+            width: 50%;
+            height: auto;
+            display: block;
+            background-color: black;
+            
+            
+        }
+
+        .image-name {
+            position: absolute;
+            bottom: 0;
+            width: 80%;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 2px ;
+            font-size: 12px;
+        }
+     
+       
+      
+        .scroll-container {
+            width: 100%;
+            height: 100%;
+            overflow-y: auto;
+        }
+
+        .section_1 {
+            position: relative;
+            width: 100%;
+            height: 100vh; 
+            background-image: url('./pop-bg (1).jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .container {
+            width: 800px;
+            background-color: #0d0e0ee0;
+            color: white;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 20px;
+            border-radius: 8px;
+            position: relative;
+        }
+
+        .close-icon {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #0d0e0ee0;
+            color: white;
+            border: none;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            font-size: 20px;
+            line-height: 20px;
+        }
+
+        .close-icon:hover {
+            background-color: white;
+            color: #0d0e0e;
+        }
+
+        .container div {
+            max-width: 45%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .container img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        .container h2 {
+            margin-bottom: 10px;
+        }
+
+        .container p {
+            margin-bottom: 10px;
+            line-height: 1.5;
+            text-align: center;
+        }
+        .container_2{
+            width: 800px;
+            height: 450px;
+            background-color: #0d0e0ee0;
+            color: white;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 50px;
+            border-radius: 8px;
+            position: relative;
+            
+        }
+        .container_3{
+            width: 700px;
+            background-color: #0d0e0ee0;
+            color: white;
+            display: inline-block;
+            padding: 40px;
+            border-radius: 8px;
+            position: relative;
+        }
+        .gallery-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .left, .right {
+            background-color: white;
+            color: black;
+            border: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            font-size: 20px;
+            line-height: 20px;
+        }
+
+        .left:hover, .right:hover {
+            background-color:blue ;
+            color: white;
+        }
+
+        .gallery-images {
+            display: flex;
+            gap: 10px;
+        }
+
+        .gallery-images img {
+            width: 150px;
+            height: 150px;
+            border-radius: 8px;
+        }
+
+        .radio-container {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+    .container_4{
+        width: 500px;
+        height: 450px;
+        background-color: #0d0e0ee0;
+        color: white;
+        display: inline-block;
+        padding: 60px;
+        border-radius: 8px;
+        position: relative;
+    }
+    .name{
+        background-color: #0d0e0ee0;
+        color: white;
+        width: 45%;
+        padding: 1%;
+    } 
+    .email{
+        background-color: #0d0e0ee0;
+        color: white;
+        width: 45%;
+        padding: 1%;
+    }
+    .Message {
+            background-color: #0d0e0ee0; 
+            width: 450px; 
+            height: 200px; 
+            padding: 10px; 
+            border: 1px solid #0d0e0ee0; 
+            border-radius: 5px; 
+            font-size: 16px; 
+            color: white; 
+            margin: 10px;
+        }
+    .submit{
+        display: inline-block;
+        background-color: blue;
+        color: white;
+        width: 100px;
+        padding :10px;
+        text-align: center;
+        font-size:16px;
+        border: none;
+        border-radius: 8px;
+        margin: 10px;
+        
+        
+    }
+   
+    
+    </style>
+</head>
+<body>
+    <div class="container_1">
+        <div class="section">
+            <div class="container">
+                <h2 class="pop">POP design</h2>
+                <div class="line_style1"><hr></div>
+                <div class="line_style2"><hr></div>
+                <p class="para">New html template with pop up pages <br> and use this layout for your website.</p>
+            </div>
+            <div class="image-grid">
+                <div class="image-container">
+                    <img src="./house_img.png" alt="Image 1" height="30" width="30">
+                    <div class="image-name">Welcome</div>
+                </div>
+                <div class="image-container">
+                    <img src="./people.jpg" alt="Image 2" height="30" width="30">
+                    <div class="image-name">Our Team</div >
+                </div>
+                <div class="image-container">
+                    <img src="./hands.webp" alt="Image 3" height="30" width="30">
+                    <div class="image-name">Our Work</div>
+                </div>
+                <div class="image-container">
+                    <img src="./chat icon.png" alt="Image 4" height="30" width="30">
+                    <div class="image-name">Contact</div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+  <div class="scroll-container">
+        <div class="section_1">
+            <div class="container">
+                <button class="close-icon">×</button>
+                <div>
+                    <h2>Welcome to Pop Design</h2>
+                    <img src="./welcome-1.jpg" alt="welcome-1 img">
+                    <p>You can feel free to use this template for your <br>
+                    website. Please tell your friends about <br>
+                    Tooplate website. Thank You.</p>
+                    <p>Vivamus placerat in nunc eget volutpt. Etiam <br>
+                    tincidunt blandit sapien, sed posuere enim. Ut <br>
+                    eget ornare lectus.</p>
+                </div>
+                <div>
+                    <p>Donec eu lectus ligula. Aenean pulvinar dolor <br>
+                    et massa lacinia rhoncus sit amet sed mauris. <br>
+                    Aliquam dictum nibh et consequat finibus.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur <br>
+                        adipiscing elit. In magna mauris, malesuada ut <br>
+                        diam eu, pellentesque fringilla orci.
+                    </p>
+                    <img src="./welcome-2.jpg" alt="welcome-2 img">
+                </div>
+            </div>
+        </div>
+        <div class="section_1">
+            <div class="container_2">
+                <button class="close-icon">×</button>
+                <div>
+                    <h2>Background Of Our Team</h2>
+                     <p>Vestibulum aliquet,accu accumsan lobortis bibendum,justo <br>
+                        Velit efficitur lorem,at pulvinar mi justo nec lacus.Nullam et <br>
+                        libero aliquet,luctus nunc sit amet,tincidunt ligula,sed <br>
+                        fini bus ante sed tortot cursese,nec malesuada lectus <br>
+                        interdum.
+                    </p>
+                    <br>
+                    <p>
+                        Sed ex turpls,vulputate in efficitur id,lobortis eget nibh.
+                        pellentesque maximus ipsum eget vellit imprediet sodales. <br>
+                        Suspendisse in blandit mi.
+                    </p>
+                    <br>
+                    <p>
+                        pellentesque finibus fells risus, ut malesuada felis viverra at. <br>
+                        Quisque accumsan in mi non hendrerit
+                    </p>
+                    <br>
+                    <br>
+                    <button class="read button"> Read More</button>
+                </div>
+                <div>
+                    <img src="./team.jpg" alt=" team image" height="350" width="200">
+                </div>
+            </div>
+        </div>
+        <div class="section_1">
+            <div class="container_3">
+                <button class="close-icon">×</button>
+                <div>
+                    <h2>Our Work</h2>
+                    <br>
+                    <p>Aliquam interdum,nisl sed faucibus tempor,massa velit laoreet ipsum,et faucibus sapien <br>
+                    manga at enim. Suspendisse a dictum tortor, vel rhoncus libero.integer at lacus velit. <br>
+                     nullam dapibus venenaties placerat.</p>
+                </div>
+                <br>
+                <div>
+                    <div class="gallery-container">
+                        <button class="left"><</button>
+                        <div class="gallery-images">
+                    <span><img src="./gallery-img-01-tn.jpg" alt="img"></span>
+                    <span><img src="./gallery-img-02-tn (1).jpg" alt="img" ></span>
+                    <span><img src="./gallery-img-03-tn (1).jpg" alt="img" ></span>
+                    <span><img src="./gallery-img-04-tn.jpg" alt="img" ></span>
+                        </div>
+                        <button class="right">&gt;</button>
+                    </div>
+                </div>
+                <div class="radio-container">
+                    <input type="radio">
+                    <input type="radio">
+                </div>
+            </div>
+        </div>
+        <div class="section_1">
+            <div class="container_4">
+                <button class="close-icon" >×</button>
+                <div>
+                <h2>Contact Us</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam interdum,nisl sed <br>
+                 faucibus tempor,massa velit laoreet ipsum, et faucibus sapien manga at enim. <br>
+                  Suspendisse a dictum tortor, vel ehoncus libero.</p>
+                </div>
+                <div>
+                    <form>
+                        <input type="text" placeholder="Name" class="name">
+                        <input type="email" name="" id="" placeholder="Email" class="email">
+                         <br>
+                        <textarea name="" id="" placeholder="Message" class="Message"></textarea>
+                        <br>
+                        <button class="submit">Submit</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>    
+    </div>
+    
+  
+</body>
+</html>
